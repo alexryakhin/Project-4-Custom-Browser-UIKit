@@ -7,23 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		51A61B7526B3DBEC00AC1F29 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A61B7426B3DBEC00AC1F29 /* TableViewController.swift */; };
+		51A61B7726B3DDA000AC1F29 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A61B7626B3DDA000AC1F29 /* Bundle-Decodable.swift */; };
+		51A61B7926B3DDB100AC1F29 /* websites.json in Resources */ = {isa = PBXBuildFile; fileRef = 51A61B7826B3DDB100AC1F29 /* websites.json */; };
 		51E6399626B2482C00E6DC1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E6399526B2482C00E6DC1F /* AppDelegate.swift */; };
 		51E6399826B2482C00E6DC1F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E6399726B2482C00E6DC1F /* SceneDelegate.swift */; };
 		51E6399A26B2482C00E6DC1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E6399926B2482C00E6DC1F /* ViewController.swift */; };
-		51E6399D26B2482C00E6DC1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51E6399B26B2482C00E6DC1F /* Main.storyboard */; };
 		51E6399F26B2482C00E6DC1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51E6399E26B2482C00E6DC1F /* Assets.xcassets */; };
 		51E639A226B2482C00E6DC1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51E639A026B2482C00E6DC1F /* LaunchScreen.storyboard */; };
+		51E639AA26B24AA100E6DC1F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E639A926B24AA100E6DC1F /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		51A61B7426B3DBEC00AC1F29 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		51A61B7626B3DDA000AC1F29 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
+		51A61B7826B3DDB100AC1F29 /* websites.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = websites.json; sourceTree = "<group>"; };
 		51E6399226B2482C00E6DC1F /* Project4(withoutStoryboard).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project4(withoutStoryboard).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51E6399526B2482C00E6DC1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51E6399726B2482C00E6DC1F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		51E6399926B2482C00E6DC1F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		51E6399C26B2482C00E6DC1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		51E6399E26B2482C00E6DC1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51E639A126B2482C00E6DC1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51E639A326B2482C00E6DC1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51E639A926B24AA100E6DC1F /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +62,13 @@
 		51E6399426B2482C00E6DC1F /* Project4(withoutStoryboard) */ = {
 			isa = PBXGroup;
 			children = (
+				51E639A926B24AA100E6DC1F /* Extensions.swift */,
+				51A61B7626B3DDA000AC1F29 /* Bundle-Decodable.swift */,
 				51E6399526B2482C00E6DC1F /* AppDelegate.swift */,
 				51E6399726B2482C00E6DC1F /* SceneDelegate.swift */,
 				51E6399926B2482C00E6DC1F /* ViewController.swift */,
-				51E6399B26B2482C00E6DC1F /* Main.storyboard */,
+				51A61B7426B3DBEC00AC1F29 /* TableViewController.swift */,
+				51A61B7826B3DDB100AC1F29 /* websites.json */,
 				51E6399E26B2482C00E6DC1F /* Assets.xcassets */,
 				51E639A026B2482C00E6DC1F /* LaunchScreen.storyboard */,
 				51E639A326B2482C00E6DC1F /* Info.plist */,
@@ -126,8 +135,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				51E639A226B2482C00E6DC1F /* LaunchScreen.storyboard in Resources */,
+				51A61B7926B3DDB100AC1F29 /* websites.json in Resources */,
 				51E6399F26B2482C00E6DC1F /* Assets.xcassets in Resources */,
-				51E6399D26B2482C00E6DC1F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,20 +150,15 @@
 				51E6399A26B2482C00E6DC1F /* ViewController.swift in Sources */,
 				51E6399626B2482C00E6DC1F /* AppDelegate.swift in Sources */,
 				51E6399826B2482C00E6DC1F /* SceneDelegate.swift in Sources */,
+				51A61B7526B3DBEC00AC1F29 /* TableViewController.swift in Sources */,
+				51E639AA26B24AA100E6DC1F /* Extensions.swift in Sources */,
+				51A61B7726B3DDA000AC1F29 /* Bundle-Decodable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		51E6399B26B2482C00E6DC1F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				51E6399C26B2482C00E6DC1F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		51E639A026B2482C00E6DC1F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -288,20 +292,20 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 69S862NXBP;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Project4(withoutStoryboard)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Project4-1";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "dor.Project4-withoutStoryboard-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -316,20 +320,20 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 69S862NXBP;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Project4(withoutStoryboard)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Project4-1";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "dor.Project4-withoutStoryboard-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
